@@ -26,17 +26,17 @@
   color: var(--light-purple);
 }
 
-.footer-section p {
+.footer-section p {/*  */
   color: rgba(255, 255, 255, 0.8);
   line-height: 1.6;
 }
-
+/*  */
 .tagline {
   font-style: italic;
   margin-top: 0.5rem;
   color: var(--orange);
 }
-
+/*  */
 .social-links {
   display: flex;
   flex-direction: column;
