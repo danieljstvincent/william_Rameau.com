@@ -36,7 +36,7 @@ const Footer = () => {
               LinkedIn
             </a>
             <a 
-              href="https://twitter.com" 
+              href="https://www.facebook.com/profile.php?id=61559328471204" 
               target="_blank" 
               rel="noopener noreferrer"
               className="social-link"
@@ -62,7 +62,7 @@ const Footer = () => {
       
       <div className="footer-bottom">
         <p>&copy; {new Date().getFullYear()} William Rameau. All rights reserved.</p>
-        <p>Website designed with ❤️ for inspiring stories</p>
+        <p>Website designed by BrilliantsonBedford</p>
       </div>
     </footer>
   )
