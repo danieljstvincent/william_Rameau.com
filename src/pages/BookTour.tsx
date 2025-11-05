@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './BookTour.css'
 
 const BookTour = () => {
@@ -136,9 +137,9 @@ const BookTour = () => {
               <li>Podcast interviews and media appearances</li>
               <li>Virtual presentations for book clubs and organizations</li>
             </ul>
-            <a href="/contact" className="btn btn-primary">
+            <Link to="/contact" className="btn btn-primary">
               Contact Will
-            </a>
+            </Link>
           </div>
         </div>
       </section>
