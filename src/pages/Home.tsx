@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Home.css'
 
 const Home = () => {
@@ -26,9 +27,9 @@ const Home = () => {
               >
                 Order Your Copy Now
               </a>
-              <a href="/about-book" className="btn btn-secondary">
+              <Link to="/about-book" className="btn btn-secondary">
                 Learn More
-              </a>
+              </Link>
             </div>
           </div>
           <div className="hero-image">
@@ -83,9 +84,9 @@ const Home = () => {
                 moments and the real world. Will currently resides in New York City and is an avid 
                 fan of his beloved New York teams.
               </p>
-              <a href="/about-will" className="btn btn-primary">
+              <Link to="/about-will" className="btn btn-primary">
                 Read More About Will
-              </a>
+              </Link>
             </div>
             <div className="about-preview-image">
               <img 
