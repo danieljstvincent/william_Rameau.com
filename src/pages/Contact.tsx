@@ -12,7 +12,7 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     // Create mailto link
-    const mailtoLink = `mailto:info@greatnessthroughpersecution.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
+    const mailtoLink = `mailto:info@williamrameau.com.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
       `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
     )}`
     window.location.href = mailtoLink
@@ -48,7 +48,7 @@ const Contact = () => {
                 <div className="contact-method">
                   <div className="method-icon">📧</div>
                   <h3>Email</h3>
-                  <p>info@greatnessthroughpersecution.com</p>
+                  <p>info@williamrameau.com</p>
                 </div>
 
                 <div className="contact-method">
