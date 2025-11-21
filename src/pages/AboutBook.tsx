@@ -15,7 +15,7 @@ const AboutBook = () => {
           <div className="book-details-grid">
             <div className="book-cover-section">
               <img 
-                src="/book-cover.jpg.png" 
+                src="/book-cover.jpsdfg.png" 
                 alt="Greatness Through Persecution Book Cover" 
                 className="book-cover-large"
               />
