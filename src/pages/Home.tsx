@@ -35,7 +35,7 @@ const Home = () => {
           <div className="hero-image">
             <div className="book-3d">
               <img 
-                src="/book-on-a-table.png" 
+                src="/3d_book.png" 
                 alt="Greatness Through Persecution Book Cover" 
               />
               <div className="book-shadow"></div>
